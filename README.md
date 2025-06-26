@@ -53,7 +53,7 @@ python text_completion_app.py
 You will see a welcome message and be prompted to set the creativity for your text generation, or proceed with the default setting.
 
 - **To set creativity**: Type `Y` and enter a float between 0 and 1 (e.g., `0.3` for focused, `0.9` for creative).
-- **To exit**: Type `exit` when prompted for a prompt.
+- **To exit**: Type `exit` when prompted.
 
 Example interaction:
 
@@ -65,7 +65,7 @@ Type 'exit' to exit the program
 
 Would you like to set the creativity of the text?
 Y/N: Y
-To set creativity enter a float between 0 and 1: 0.5
+To set creativity, enter a float between 0 and 1: 0.5
 Enter a prompt: Write a story about a robot
 AI Response:  Once upon a time...
 ```
@@ -75,8 +75,3 @@ AI Response:  Once upon a time...
 - The app uses Cohere's `command-a-03-2025` model for chat completions.
 - If you type `exit` at the prompt, the app will close.
 - Make sure your API key is valid and active.
-
-## Acknowledgments
-
-- [Cohere](https://cohere.com/)
-- [python-dotenv](https://github.com/theskumar/python-dotenv)
